@@ -15,8 +15,6 @@ const Feature = function({data, selected, onChange}) {
 
 const FeatureFilter = function({features, selection, onChange}) {
   const setSelection = (feature, value) => onChange({ [feature.id]: value });
-
-  const elements = features.map(f => <Feature key={f.id} data={f} selected={selection[f.id]} onChange={v => setSelection(f, v)} />);
   const rows = arrayToTable(features, 6);
   const renderFeature = f => <Feature data={f} selected={selection[f.id]} onChange={v => setSelection(f, v)} />;
 
