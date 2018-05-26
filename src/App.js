@@ -4,6 +4,7 @@ import './App.css';
 import Hero from './ui/Hero'
 import Feature from './entities/Feature'
 import FeatureFilter from './ui/FeatureFilter'
+import arrayToTable from './util/arrayToTable'
 
 class App extends Component {
   state = {
@@ -45,21 +46,7 @@ class App extends Component {
   rowsOfHeroes() {
     const rowLength = 6;
     const heroes = this.filteredHeroes();
-    const result = []
-
-    let currentRow = [];
-    for(let i = 0; i < heroes.length; i++) {
-      currentRow.push(heroes[i]);
-      if(currentRow.length === rowLength) {
-        result.push(currentRow);
-        currentRow = [];
-      }
-    }
-    if(currentRow.length > 0) {
-      result.push(currentRow);
-    }
-
-    return result
+    return arrayToTable(heroes, rowLength);
   }
 
   filteredHeroes() {
