@@ -1,0 +1,100 @@
+[
+  {
+    "id": "melee",
+    "title": "Melee attack"
+  },
+  {
+    "id": "ranged",
+    "title": "Ranged attack"
+  },
+  {
+    "id": "dd",
+    "title": "Damage dealer"
+  },
+  {
+    "id": "tank",
+    "title": "Main tank"
+  },
+  {
+    "id": "bruiser"
+  },
+  {
+    "id": "mage"
+  },
+  {
+    "id": "aa",
+    "title": "Auto attack"
+  },
+  {
+    "id": "support"
+  },
+  {
+    "id": "healer"
+  },
+  {
+    "id": "slow"
+  },
+  {
+    "id": "waveclear"
+  },
+  {
+    "id": "roots"
+  },
+  {
+    "id": "burst",
+    "title": "Burst damage"
+  },
+  {
+    "id": "pushing"
+  },
+  {
+    "id": "selfsustain",
+    "title": "Self-sustain"
+  },
+  {
+    "id": "cc",
+    "title": "Crowd control/area denial"
+  },
+  {
+    "id": "stun"
+  },
+  {
+    "id": "silence"
+  },
+  {
+    "id": "blind"
+  },
+  {
+    "id": "initiation"
+  },
+  {
+    "id": "finisher"
+  },
+  {
+    "id": "global"
+  },
+  {
+    "id": "escape"
+  },
+  {
+    "id": "mobility"
+  },
+  {
+    "id": "solo",
+    "title": "Solo laner"
+  },
+  {
+    "id": "camping",
+    "title": "Camp capture"
+  },
+  {
+    "id": "scout",
+    "title": "Scout abilities"
+  },
+  {
+    "id": "summons"
+  },
+  {
+    "id": "stealth"
+  }
+]
