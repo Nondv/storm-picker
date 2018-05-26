@@ -1,233 +1,464 @@
 [
   {
-    "name": "Abathur"
+    "name": "Abathur",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/abathur/bust.jpg"
+    }
   },
   {
-    "name": "Alarak"
+    "name": "Alarak",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/alarak/bust.jpg"
+    }
   },
   {
-    "name": "Alexstrasza"
+    "name": "Alexstrasza",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/alexstrasza/bust.jpg"
+    }
   },
   {
-    "name": "Ana"
+    "name": "Ana",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/ana/bust.jpg"
+    }
   },
   {
-    "name": "Anub'arak"
+    "name": "Anub'arak",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/anubarak/bust.jpg"
+    }
   },
   {
-    "name": "Artanis"
+    "name": "Artanis",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/artanis/bust.jpg"
+    }
   },
   {
-    "name": "Arthas"
+    "name": "Arthas",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/arthas/bust.jpg"
+    }
   },
   {
-    "name": "Auriel"
+    "name": "Auriel",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/auriel/bust.jpg"
+    }
   },
   {
-    "name": "Azmodan"
+    "name": "Azmodan",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/azmodan/bust.jpg"
+    }
   },
   {
-    "name": "Blaze"
+    "name": "Blaze",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/blaze/bust.jpg"
+    }
   },
   {
-    "name": "Brightwing"
+    "name": "Brightwing",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/brightwing/bust.jpg"
+    }
   },
   {
-    "name": "Cassia"
+    "name": "Cassia",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/cassia/bust.jpg"
+    }
   },
   {
-    "name": "Chen"
+    "name": "Chen",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/chen/bust.jpg"
+    }
   },
   {
-    "name": "Cho'gall"
+    "name": "Cho'gall",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/chogall/bust.jpg"
+    }
   },
   {
-    "name": "Chromie"
+    "name": "Chromie",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/chromie/bust.jpg"
+    }
   },
   {
-    "name": "D.Va"
+    "name": "D.Va",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/dva/bust.jpg"
+    }
   },
   {
-    "name": "Decard"
+    "name": "Decard",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/deckard/bust.jpg"
+    }
   },
   {
-    "name": "Dehaka"
+    "name": "Dehaka",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/dehaka/bust.jpg"
+    }
   },
   {
-    "name": "Diablo"
+    "name": "Diablo",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/diablo/bust.jpg"
+    }
   },
   {
-    "name": "E.T.C."
+    "name": "E.T.C.",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/etc/bust.jpg"
+    }
   },
   {
-    "name": "Falstad"
+    "name": "Falstad",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/falstad/bust.jpg"
+    }
   },
   {
-    "name": "Garrosh"
+    "name": "Garrosh",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/garrosh/bust.jpg"
+    }
   },
   {
-    "name": "Gazlowe"
+    "name": "Gazlowe",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/gazlowe/bust.jpg"
+    }
   },
   {
-    "name": "Genji"
+    "name": "Genji",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/genji/bust.jpg"
+    }
   },
   {
-    "name": "Greymane"
+    "name": "Greymane",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/greymane/bust.jpg"
+    }
   },
   {
-    "name": "Gul'dan"
+    "name": "Gul'dan",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/guldan/bust.jpg"
+    }
   },
   {
-    "name": "Hanzo"
+    "name": "Hanzo",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/hanzo/bust.jpg"
+    }
   },
   {
-    "name": "Illidan"
+    "name": "Illidan",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/illidan/bust.jpg"
+    }
   },
   {
-    "name": "Jaina"
+    "name": "Jaina",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/jaina/bust.jpg"
+    }
   },
   {
-    "name": "Johanna"
+    "name": "Johanna",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/johanna/bust.jpg"
+    }
   },
   {
-    "name": "Junkrat"
+    "name": "Junkrat",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/junkrat/bust.jpg"
+    }
   },
   {
-    "name": "Kael'thas"
+    "name": "Kael'thas",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/kaelthas/bust.jpg"
+    }
   },
   {
-    "name": "Kel'Thuzad"
+    "name": "Kel'Thuzad",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/kelthuzad/bust.jpg"
+    }
   },
   {
-    "name": "Kerrigan"
+    "name": "Kerrigan",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/kerrigan/bust.jpg"
+    }
   },
   {
-    "name": "Kharazim"
+    "name": "Kharazim",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/kharazim/bust.jpg"
+    }
   },
   {
-    "name": "Leoric"
+    "name": "Leoric",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/leoric/bust.jpg"
+    }
   },
   {
-    "name": "Li Li"
+    "name": "Li Li",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/li-li/bust.jpg"
+    }
   },
   {
-    "name": "Li-Ming"
+    "name": "Li-Ming",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/li-ming/bust.jpg"
+    }
   },
   {
-    "name": "Lt. Morales"
+    "name": "Lt. Morales",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/lt-morales/bust.jpg"
+    }
   },
   {
-    "name": "Lunara"
+    "name": "Lunara",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/lunara/bust.jpg"
+    }
   },
   {
-    "name": "Lúcio"
+    "name": "Lúcio",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/lucio/bust.jpg"
+    }
   },
   {
-    "name": "Maiev"
+    "name": "Maiev",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/maiev/bust.jpg"
+    }
   },
   {
-    "name": "Malfurion"
+    "name": "Malfurion",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/malfurion/bust.jpg"
+    }
   },
   {
-    "name": "Malthael"
+    "name": "Malthael",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/malthael/bust.jpg"
+    }
   },
   {
-    "name": "Medivh"
+    "name": "Medivh",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/medivh/bust.jpg"
+    }
   },
   {
-    "name": "Muradin"
+    "name": "Muradin",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/muradin/bust.jpg"
+    }
   },
   {
-    "name": "Murky"
+    "name": "Murky",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/murky/bust.jpg"
+    }
   },
   {
-    "name": "Nazeebo"
+    "name": "Nazeebo",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/nazeebo/bust.jpg"
+    }
   },
   {
-    "name": "Nova"
+    "name": "Nova",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/nova/bust.jpg"
+    }
   },
   {
-    "name": "Probius"
+    "name": "Probius",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/probius/bust.jpg"
+    }
   },
   {
-    "name": "Ragnaros"
+    "name": "Ragnaros",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/ragnaros/bust.jpg"
+    }
   },
   {
-    "name": "Raynor"
+    "name": "Raynor",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/raynor/bust.jpg"
+    }
   },
   {
-    "name": "Rehgar"
+    "name": "Rehgar",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/rehgar/bust.jpg"
+    }
   },
   {
-    "name": "Rexxar"
+    "name": "Rexxar",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/rexxar/bust.jpg"
+    }
   },
   {
-    "name": "Samuro"
+    "name": "Samuro",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/samuro/bust.jpg"
+    }
   },
   {
-    "name": "Sgt. Hammer"
+    "name": "Sgt. Hammer",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/sgt-hammer/bust.jpg"
+    }
   },
   {
-    "name": "Sonya"
+    "name": "Sonya",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/sonya/bust.jpg"
+    }
   },
   {
-    "name": "Stitches"
+    "name": "Stitches",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/stitches/bust.jpg"
+    }
   },
   {
-    "name": "Stukov"
+    "name": "Stukov",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/stukov/bust.jpg"
+    }
   },
   {
-    "name": "Sylvanas"
+    "name": "Sylvanas",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/sylvanas/bust.jpg"
+    }
   },
   {
-    "name": "Tassadar"
+    "name": "Tassadar",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/tassadar/bust.jpg"
+    }
   },
   {
-    "name": "The Butcher"
+    "name": "The Butcher",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/the-butcher/bust.jpg"
+    }
   },
   {
-    "name": "The Lost Vikings"
+    "name": "The Lost Vikings",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/the-lost-vikings/bust.jpg"
+    }
   },
   {
-    "name": "Thrall"
+    "name": "Thrall",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/thrall/bust.jpg"
+    }
   },
   {
-    "name": "Tracer"
+    "name": "Tracer",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/tracer/bust.jpg"
+    }
   },
   {
-    "name": "Tychus"
+    "name": "Tychus",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/tychus/bust.jpg"
+    }
   },
   {
-    "name": "Tyrael"
+    "name": "Tyrael",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/tyrael/bust.jpg"
+    }
   },
   {
-    "name": "Tyrande"
+    "name": "Tyrande",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/tyrande/bust.jpg"
+    }
   },
   {
-    "name": "Uther"
+    "name": "Uther",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/uther/bust.jpg"
+    }
   },
   {
-    "name": "Valeera"
+    "name": "Valeera",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/valeera/bust.jpg"
+    }
   },
   {
-    "name": "Valla"
+    "name": "Valla",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/valla/bust.jpg"
+    }
   },
   {
-    "name": "Varian"
+    "name": "Varian",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/varian/bust.jpg"
+    }
   },
   {
-    "name": "Xul"
+    "name": "Xul",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/xul/bust.jpg"
+    }
   },
   {
-    "name": "Zagara"
+    "name": "Zagara",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/zagara/bust.jpg"
+    }
   },
   {
-    "name": "Zarya"
+    "name": "Zarya",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/zarya/bust.jpg"
+    }
   },
   {
-    "name": "Zeratul"
+    "name": "Zeratul",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/zeratul/bust.jpg"
+    }
   },
   {
-    "name": "Zul'jin"
+    "name": "Zul'jin",
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/zuljin/bust.jpg"
+    }
   }
 ]
