@@ -1,0 +1,8 @@
+.hero {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.hero__bust {
+  max-height: 250px;
+}
