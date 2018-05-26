@@ -12,14 +12,42 @@ class App extends Component {
   }
 
   render() {
-    const heroes = this.state.heroes || [];
     return (
       <div className="App">
-        <div>
-          {heroes.map(h => <Hero key={h.name} data={h} />)}
-        </div>
+        <table className='app__hero-table'>
+          <tbody>
+            {
+              this.rowsOfHeroes().map(
+                (row, i) => <tr key={i}>
+                              {row.map(h => <td key={h.name}><Hero data={h} /></td>)}
+                            </tr>
+              )
+            }
+          </tbody>
+        </table>
       </div>
     );
+  }
+
+  // TODO: cache it
+  rowsOfHeroes() {
+    const rowLength = 6;
+    const heroes = this.state.heroes || [];
+    const result = []
+
+    let currentRow = [];
+    for(let i = 0; i < heroes.length; i++) {
+      currentRow.push(heroes[i]);
+      if(currentRow.length === rowLength) {
+        result.push(currentRow);
+        currentRow = [];
+      }
+    }
+    if(currentRow.length > 0) {
+      result.push(currentRow);
+    }
+
+    return result
   }
 }
 
