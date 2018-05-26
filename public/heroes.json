@@ -1,462 +1,1208 @@
 [
   {
     "name": "Abathur",
+    "features": {
+      "dd": true,
+      "support": true,
+      "global": true,
+      "pushing": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/abathur/bust.jpg"
     }
   },
   {
     "name": "Alarak",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "burst": true,
+      "silence": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/alarak/bust.jpg"
     }
   },
   {
     "name": "Alexstrasza",
+    "features": {
+      "ranged": true,
+      "support": true,
+      "healer": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/alexstrasza/bust.jpg"
     }
   },
   {
     "name": "Ana",
+    "features": {
+      "ranged": true,
+      "support": true,
+      "healer": true,
+      "cc": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/ana/bust.jpg"
     }
   },
   {
     "name": "Anub'arak",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "initiation": true,
+      "cc": true,
+      "summons": true,
+      "escape": true,
+      "stun": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/anubarak/bust.jpg"
     }
   },
   {
     "name": "Artanis",
+    "features": {
+      "bruiser": true,
+      "dd": true,
+      "initiaton": true,
+      "blind": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/artanis/bust.jpg"
     }
   },
   {
     "name": "Arthas",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "waveclear": true,
+      "solo": true,
+      "slow": true,
+      "roots": true,
+      "selfsustain": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/arthas/bust.jpg"
     }
   },
   {
     "name": "Auriel",
+    "features": {
+      "ranged": true,
+      "healer": true,
+      "support": true,
+      "stun": true,
+      "blind": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/auriel/bust.jpg"
     }
   },
   {
     "name": "Azmodan",
+    "features": {
+      "ranged": true,
+      "mage": true,
+      "dd": true,
+      "waveclear": true,
+      "camping": true,
+      "pushing": true,
+      "burst": true,
+      "solo": true,
+      "summons": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/azmodan/bust.jpg"
     }
   },
   {
     "name": "Blaze",
+    "features": {
+      "ranged": true,
+      "tank": true,
+      "bruiser": true,
+      "camping": true,
+      "solo": true,
+      "initiation": true,
+      "waveclear": true,
+      "selfsustain": true,
+      "stun": true,
+      "slow": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/blaze/bust.jpg"
     }
   },
   {
     "name": "Brightwing",
+    "features": {
+      "ranged": true,
+      "healer": true,
+      "support": true,
+      "cc": true,
+      "global": true,
+      "selfsustain": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/brightwing/bust.jpg"
     }
   },
   {
     "name": "Cassia",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "finisher": true,
+      "blind": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/cassia/bust.jpg"
     }
   },
   {
     "name": "Chen",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "bruiser": true,
+      "slow": true,
+      "finisher": true,
+      "escape": true,
+      "waveclear": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/chen/bust.jpg"
     }
   },
   {
     "name": "Cho'gall",
+    "features": {
+      "melee": true,
+      "bruiser": true,
+      "mage": true,
+      "dd": true,
+      "initiation": true,
+      "waveclear": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/chogall/bust.jpg"
     }
   },
   {
     "name": "Chromie",
+    "features": {
+      "mage": true,
+      "dd": true,
+      "ranged": true,
+      "slow": true,
+      "burst": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/chromie/bust.jpg"
     }
   },
   {
     "name": "D.Va",
+    "features": {
+      "ranged": true,
+      "bruiser": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/dva/bust.jpg"
     }
   },
   {
     "name": "Decard",
+    "features": {
+      "healer": true,
+      "support": true,
+      "roots": true,
+      "slow": true,
+      "cc": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/deckard/bust.jpg"
     }
   },
   {
     "name": "Dehaka",
+    "features": {
+      "melee": true,
+      "bruiser": true,
+      "global": true,
+      "waveclear": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/dehaka/bust.jpg"
     }
   },
   {
     "name": "Diablo",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "bruiser": true,
+      "initiation": true,
+      "stun": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/diablo/bust.jpg"
     }
   },
   {
     "name": "E.T.C.",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "initiation": true,
+      "stun": true,
+      "selfsustain": true,
+      "global": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/etc/bust.jpg"
     }
   },
   {
     "name": "Falstad",
+    "features": {
+      "ranged": true,
+      "mobility": true,
+      "dd": true,
+      "aa": true,
+      "mage": true,
+      "global": true,
+      "cc": true,
+      "escape": true,
+      "waveclear": true,
+      "finisher": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/falstad/bust.jpg"
     }
   },
   {
     "name": "Garrosh",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "initiation": true,
+      "stun": true,
+      "slow": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/garrosh/bust.jpg"
     }
   },
   {
     "name": "Gazlowe",
+    "features": {
+      "melee": true,
+      "aa": true,
+      "stun": true,
+      "waveclear": true,
+      "pushing": true,
+      "solo": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/gazlowe/bust.jpg"
     }
   },
   {
     "name": "Genji",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mobility": true,
+      "finisher": true,
+      "escape": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/genji/bust.jpg"
     }
   },
   {
     "name": "Greymane",
+    "features": {
+      "ranged": true,
+      "melee": true,
+      "dd": true,
+      "aa": true,
+      "finisher": true,
+      "waveclear": true,
+      "solo": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/greymane/bust.jpg"
     }
   },
   {
     "name": "Gul'dan",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "waveclear": true,
+      "selfsustain": true,
+      "cc": true,
+      "solo": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/guldan/bust.jpg"
     }
   },
   {
     "name": "Hanzo",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "scout": true,
+      "mobility": true,
+      "camping": true,
+      "stun": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/hanzo/bust.jpg"
     }
   },
   {
     "name": "Illidan",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "finisher": true,
+      "mobility": true,
+      "aa": true,
+      "camping": true,
+      "global": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/illidan/bust.jpg"
     }
   },
   {
     "name": "Jaina",
+    "features": {
+      "ranged": true,
+      "mage": true,
+      "slow": true,
+      "roots": true,
+      "burst": true,
+      "waveclear": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/jaina/bust.jpg"
     }
   },
   {
     "name": "Johanna",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "stun": true,
+      "blind": true,
+      "escape": true,
+      "slow": true,
+      "waveclear": true
+  },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/johanna/bust.jpg"
     }
   },
   {
     "name": "Junkrat",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "waveclear": true,
+      "roots": true,
+      "pushing": true,
+      "escape": true,
+      "mobility": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/junkrat/bust.jpg"
     }
   },
   {
     "name": "Kael'thas",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "waveclear": true,
+      "burst": true,
+      "stun": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/kaelthas/bust.jpg"
     }
   },
   {
     "name": "Kel'Thuzad",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "slow": true,
+      "waveclear": true,
+      "roots": true,
+      "burst": true,
+      "cc": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/kelthuzad/bust.jpg"
     }
   },
   {
     "name": "Kerrigan",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "mage": true,
+      "waveclear": true,
+      "burst": true,
+      "stun": true,
+      "initiation": true,
+      "finisher": true,
+      "mobility": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/kerrigan/bust.jpg"
     }
   },
   {
     "name": "Kharazim",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "aa": true,
+      "support": true,
+      "healer": true,
+      "burst": true,
+      "selfsustain": true,
+      "finisher": true,
+      "escape": true,
+      "mobility": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/kharazim/bust.jpg"
     }
   },
   {
     "name": "Leoric",
+    "features": {
+      "melee": true,
+      "bruiser": true,
+      "slow": true,
+      "waveclear": true,
+      "selfsustain": true,
+      "cc": true,
+      "initiation": true,
+      "escape": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/leoric/bust.jpg"
     }
   },
   {
     "name": "Li Li",
+    "features": {
+      "ranged": true,
+      "support": true,
+      "healer": true,
+      "slow": true,
+      "stun": true,
+      "blind": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/li-li/bust.jpg"
     }
   },
   {
     "name": "Li-Ming",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "burst": true,
+      "finisher": true,
+      "escape": true,
+      "mobility": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/li-ming/bust.jpg"
     }
   },
   {
     "name": "Lt. Morales",
+    "features": {
+      "ranged": true,
+      "support": true,
+      "healer": true,
+      "global": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/lt-morales/bust.jpg"
     }
   },
   {
     "name": "Lunara",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "slow": true,
+      "waveclear": true,
+      "pushing": true,
+      "selfsustain": true,
+      "finisher": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/lunara/bust.jpg"
     }
   },
   {
     "name": "Lúcio",
+    "features": {
+      "ranged": true,
+      "support": true,
+      "healer": true,
+      "finisher": true,
+      "escape": true,
+      "mobility": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/lucio/bust.jpg"
     }
   },
   {
     "name": "Maiev",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "cc": true,
+      "initiation": true,
+      "finisher": true,
+      "escape": true,
+      "mobility": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/maiev/bust.jpg"
     }
   },
   {
     "name": "Malfurion",
+    "features": {
+      "ranged": true,
+      "mage": true,
+      "support": true,
+      "healer": true,
+      "slow": true,
+      "roots": true,
+      "silence": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/malfurion/bust.jpg"
     }
   },
   {
     "name": "Malthael",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "mage": true,
+      "slow": true,
+      "waveclear": true,
+      "camping": true,
+      "selfsustain": true,
+      "initiation": true,
+      "finisher": true,
+      "mobility": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/malthael/bust.jpg"
     }
   },
   {
     "name": "Medivh",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "support": true,
+      "cc": true,
+      "silence": true,
+      "initiation": true,
+      "escape": true,
+      "mobility": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/medivh/bust.jpg"
     }
   },
   {
     "name": "Muradin",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "bruiser": true,
+      "slow": true,
+      "selfsustain": true,
+      "stun": true,
+      "initiation": true,
+      "solo": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/muradin/bust.jpg"
     }
   },
   {
     "name": "Murky",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "mage": true,
+      "slow": true,
+      "waveclear": true,
+      "camping": true,
+      "burst": true,
+      "pushing": true,
+      "selfsustain": true,
+      "stun": true,
+      "escape": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/murky/bust.jpg"
     }
   },
   {
     "name": "Nazeebo",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "waveclear": true,
+      "camping": true,
+      "selfsustain": true,
+      "cc": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/nazeebo/bust.jpg"
     }
   },
   {
     "name": "Nova",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "slow": true,
+      "burst": true,
+      "finisher": true,
+      "stealth": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/nova/bust.jpg"
     }
   },
   {
     "name": "Probius",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "slow": true,
+      "waveclear": true,
+      "burst": true,
+      "pushing": true,
+      "escape": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/probius/bust.jpg"
     }
   },
   {
     "name": "Ragnaros",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "bruiser": true,
+      "mage": true,
+      "support": true,
+      "slow": true,
+      "waveclear": true,
+      "burst": true,
+      "selfsustain": true,
+      "stun": true,
+      "initiation": true,
+      "finisher": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/ragnaros/bust.jpg"
     }
   },
   {
     "name": "Raynor",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "support": true,
+      "selfsustain": true,
+      "stun": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/raynor/bust.jpg"
     }
   },
   {
     "name": "Rehgar",
+    "features": {
+      "melee": true,
+      "support": true,
+      "healer": true,
+      "slow": true,
+      "waveclear": true,
+      "finisher": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/rehgar/bust.jpg"
     }
   },
   {
     "name": "Rexxar",
+    "features": {
+      "melee": true,
+      "ranged": true,
+      "dd": true,
+      "bruiser": true,
+      "slow": true,
+      "waveclear": true,
+      "pushing": true,
+      "stun": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/rexxar/bust.jpg"
     }
   },
   {
     "name": "Samuro",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "pushing": true,
+      "finisher": true,
+      "escape": true,
+      "mobility": true,
+      "solo": true,
+      "aa": true,
+      "stealth": true,
+      "camping": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/samuro/bust.jpg"
     }
   },
   {
     "name": "Sgt. Hammer",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "waveclear": true,
+      "pushing": true,
+      "selfsustain": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/sgt-hammer/bust.jpg"
     }
   },
   {
     "name": "Sonya",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "bruiser": true,
+      "waveclear": true,
+      "selfsustain": true,
+      "camping": true,
+      "stun": true,
+      "initiation": true,
+      "finisher": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/sonya/bust.jpg"
     }
   },
   {
     "name": "Stitches",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "slow": true,
+      "waveclear": true,
+      "selfsustain": true,
+      "stun": true,
+      "initiation": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/stitches/bust.jpg"
     }
   },
   {
     "name": "Stukov",
+    "features": {
+      "melee": true,
+      "ranged": true,
+      "support": true,
+      "healer": true,
+      "slow": true,
+      "waveclear": true,
+      "cc": true,
+      "silence": true,
+      "roots": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/stukov/bust.jpg"
     }
   },
   {
     "name": "Sylvanas",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "waveclear": true,
+      "burst": true,
+      "pushing": true,
+      "cc": true,
+      "silence": true,
+      "initiation": true,
+      "escape": true,
+      "mobility": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/sylvanas/bust.jpg"
     }
   },
   {
     "name": "Tassadar",
+    "features": {
+      "ranged": true,
+      "mage": true,
+      "support": true,
+      "slow": true,
+      "waveclear": true,
+      "selfsustain": true,
+      "cc": true,
+      "escape": true,
+      "solo": true,
+      "aa": true,
+      "scout": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tassadar/bust.jpg"
     }
   },
   {
     "name": "The Butcher",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "bruiser": true,
+      "slow": true,
+      "waveclear": true,
+      "burst": true,
+      "selfsustain": true,
+      "stun": true,
+      "silence": true,
+      "initiation": true,
+      "finisher": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/the-butcher/bust.jpg"
     }
   },
   {
     "name": "The Lost Vikings",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "pushing": true,
+      "stun": true,
+      "global": true,
+      "escape": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/the-lost-vikings/bust.jpg"
     }
   },
   {
     "name": "Thrall",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "bruiser": true,
+      "roots": true,
+      "burst": true,
+      "selfsustain": true,
+      "cc": true,
+      "stun": true,
+      "initiation": true,
+      "finisher": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/thrall/bust.jpg"
     }
   },
   {
     "name": "Tracer",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "roots": true,
+      "finisher": true,
+      "escape": true,
+      "mobility": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tracer/bust.jpg"
     }
   },
   {
     "name": "Tychus",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "waveclear": true,
+      "burst": true,
+      "finisher": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tychus/bust.jpg"
     }
   },
   {
     "name": "Tyrael",
+    "features": {
+      "melee": true,
+      "tank": true,
+      "bruiser": true,
+      "support": true,
+      "cc": true,
+      "stun": true,
+      "initiation": true,
+      "escape": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tyrael/bust.jpg"
     }
   },
   {
     "name": "Tyrande",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "support": true,
+      "healer": true,
+      "selfsustain": true,
+      "stun": true,
+      "scout": true,
+      "stealth": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tyrande/bust.jpg"
     }
   },
   {
     "name": "Uther",
+    "features": {
+      "melee": true,
+      "bruiser": true,
+      "mage": true,
+      "support": true,
+      "healer": true,
+      "selfsustain": true,
+      "stun": true,
+      "solo": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/uther/bust.jpg"
     }
   },
   {
     "name": "Valeera",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "mage": true,
+      "burst": true,
+      "stun": true,
+      "silence": true,
+      "blind": true,
+      "finisher": true,
+      "stealth": true,
+      "escape": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/valeera/bust.jpg"
     }
   },
   {
     "name": "Valla",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "waveclear": true,
+      "burst": true,
+      "selfsustain": true,
+      "stun": true,
+      "finisher": true,
+      "escape": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/valla/bust.jpg"
     }
   },
   {
     "name": "Varian",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "tank": true,
+      "bruiser": true,
+      "mage": true,
+      "slow": true,
+      "burst": true,
+      "selfsustain": true,
+      "initiation": true,
+      "finisher": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/varian/bust.jpg"
     }
   },
   {
     "name": "Xul",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "waveclear": true,
+      "roots": true,
+      "pushing": true,
+      "slow": true,
+      "initiation": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/xul/bust.jpg"
     }
   },
   {
     "name": "Zagara",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "waveclear": true,
+      "pushing": true,
+      "selfsustain": true,
+      "camping": true,
+      "global": true,
+      "scout": true,
+      "summons": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/zagara/bust.jpg"
     }
   },
   {
     "name": "Zarya",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "bruiser": true,
+      "support": true,
+      "waveclear": true,
+      "cc": true,
+      "initiation": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/zarya/bust.jpg"
     }
   },
   {
     "name": "Zeratul",
+    "features": {
+      "melee": true,
+      "dd": true,
+      "mage": true,
+      "slow": true,
+      "waveclear": true,
+      "burst": true,
+      "cc": true,
+      "initiation": true,
+      "finisher": true,
+      "escape": true,
+      "mobility": true,
+      "stealth": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/zeratul/bust.jpg"
     }
   },
   {
     "name": "Zul'jin",
+    "features": {
+      "ranged": true,
+      "dd": true,
+      "mage": true,
+      "slow": true,
+      "waveclear": true,
+      "burst": true,
+      "selfsustain": true,
+      "solo": true,
+      "aa": true
+    },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/zuljin/bust.jpg"
     }
