@@ -1157,6 +1157,7 @@
     "name": "Zagara",
     "features": {
       "ranged": true,
+      "aa": true,
       "dd": true,
       "waveclear": true,
       "pushing": true,
@@ -1164,6 +1165,7 @@
       "camping": true,
       "global": true,
       "scout": true,
+      "solo": true,
       "summons": true
     },
     "images": {
