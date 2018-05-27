@@ -7,5 +7,17 @@ cache:
     - "node_modules"
 
 script:
-  - yarn build
   - yarn test
+  - yarn build
+
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  committer-from-gh: true
+  skip-cleanup: true
+  keep-history: true
+  local-dir: build
+  repo: storm-picker-compiled
+  target-branch: master
+  on:
+    branch: master
