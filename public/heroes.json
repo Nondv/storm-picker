@@ -1147,6 +1147,7 @@
       "slow": true,
       "initiation": true,
       "solo": true,
+      "summons": true,
       "aa": true
     },
     "images": {
