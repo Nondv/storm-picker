@@ -6,6 +6,7 @@ import Feature from './entities/Feature'
 import FeatureFilter from './ui/FeatureFilter'
 import arrayToTable from './util/arrayToTable'
 import sortBy from './util/sortBy'
+import mapToObjects from './util/mapToObjects'
 
 class App extends Component {
   state = {
@@ -14,7 +15,7 @@ class App extends Component {
 
   componentDidMount() {
     axios.get('/features.json')
-         .then(response => this.setState({ features: sortBy(response.data.map(f => new Feature(f)), 'title') }));
+         .then(response => this.setState({ features: sortBy(mapToObjects(response.data, Feature), 'title') }));
     axios.get('/heroes.json')
          .then(response => this.setState({ heroes: sortBy(response.data, 'name') }));
   }
