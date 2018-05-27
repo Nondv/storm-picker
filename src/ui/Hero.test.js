@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Hero from './Hero';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  const data = { name: 'Some hero' };
+  ReactDOM.render(<Hero data={data} />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
