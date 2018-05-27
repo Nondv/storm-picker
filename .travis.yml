@@ -9,6 +9,7 @@ cache:
 script:
   - yarn test
   - yarn build
+  - echo storm-picker.xyz > build/CNAME
 
 deploy:
   provider: pages
