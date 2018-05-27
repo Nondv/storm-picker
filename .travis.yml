@@ -17,7 +17,7 @@ deploy:
   skip-cleanup: true
   keep-history: true
   local-dir: build
-  repo: storm-picker-compiled
+  repo: Nondv/storm-picker-compiled
   target-branch: master
   on:
     branch: master
