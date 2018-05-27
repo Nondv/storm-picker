@@ -66,6 +66,7 @@
     "name": "Artanis",
     "features": {
       "bruiser": true,
+      "aa": true,
       "dd": true,
       "initiaton": true,
       "blind": true,
