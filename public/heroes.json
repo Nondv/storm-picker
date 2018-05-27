@@ -292,6 +292,23 @@
     }
   },
   {
+    "name": "Fenix",
+    "features": {
+      "ranged": true,
+      "mobility": true,
+      "dd": true,
+      "aa": true,
+      "escape": true,
+      "waveclear": true,
+      "finisher": true,
+      "solo": true,
+      "selfsustain": true
+    },
+    "images": {
+      "bust": "https://blzmedia-a.akamaihd.net/heroes/fenix/bust.jpg"
+    }
+  },
+  {
     "name": "Garrosh",
     "features": {
       "melee": true,
