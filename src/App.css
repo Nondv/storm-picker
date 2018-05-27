@@ -1,3 +1,8 @@
+.app {
+  background-color: #0d0119;
+  color: #ccc;
+}
+
 .app__hero-table tbody {
   vertical-align: top;
 }

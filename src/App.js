@@ -23,7 +23,7 @@ class App extends Component {
     const mergeObjects = (a, b) => Object.assign({}, a, b)
 
     return (
-      <div className="App">
+      <div className="app">
         <FeatureFilter features={features || []}
                        selection={{}}
                        onChange={c => this.setState({ filterSelection: mergeObjects(filterSelection, c) })} />
