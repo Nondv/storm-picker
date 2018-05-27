@@ -1130,7 +1130,8 @@
       "burst": true,
       "selfsustain": true,
       "initiation": true,
-      "finisher": true
+      "finisher": true,
+      "solo": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/varian/bust.jpg"
