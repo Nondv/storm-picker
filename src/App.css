@@ -8,7 +8,7 @@
   vertical-align: top;
 }
 
-.counter-pick {
+.counter-pick-filter {
   padding: 10px;
 }
 
@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 
-.counter-pick .case-item {
+.counter-pick-filter__case-item {
   display: inline-block;
   position: relative;
   vertical-align: top;
@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 
-.counter-pick .case-item .details {
+.counter-pick-filter__case-item_details {
   position: absolute;
   top: 100%;
   left: 0;
@@ -36,7 +36,7 @@
   width: 0;
 }
 
-.counter-pick .case-item:hover .details {
+.counter-pick-filter__case-item:hover .counter-pick-filter__case-item_details {
   display: block;
   background: #ccc;
   color: #444;
@@ -48,7 +48,7 @@
   transition: opacity 0.3s ease-out;
 }
 
-.counter-pick .case-item.selected {
+.counter-pick-filter__case-item.selected {
   background: green;
 }
 

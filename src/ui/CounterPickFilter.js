@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types'; // ES6
-import { list } from 'postcss';
 
 const CaseItem = ({ id, title, description = '', onClick = () => {}, features = [], selected = false }) => (
-  <div className={`case-item ${selected? 'selected': ''}`} onClick={onClick} >
+  <div className={`counter-pick-filter__case-item ${selected? 'selected': ''}`} onClick={onClick} >
     <div className="title" title={description} >
       {title||id}
     </div>
 
-    <div className="details">
+    <div className="counter-pick-filter__case-item_details">
       {description}
       <hr/>
       Requires at least 3 of this:
@@ -49,7 +48,7 @@ class CounterPickFilter extends React.Component {
 
   render() {
     return(
-      <div className="counter-pick">
+      <div className="counter-pick-filter">
         {
           this.props.cases.map(item => <CaseItem key={item.id} {...item} selected={item === this.state.selectedItem} onClick={() => this.selectItem(item)} />)
         }

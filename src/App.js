@@ -29,13 +29,13 @@ class App extends Component {
          .then(response => this.setState({ counterPicks: sortBy(response.data, 'title') }));
   }
 
-  updateFilters = (c) => {
+  updateFilters (c) {
     this.setState({ 
       filterSelection: mergeObjects(this.state.filterSelection, c)
     })
   }
 
-  setCounterFilters = (filterCounterPickSelection) => {
+  setCounterFilters(filterCounterPickSelection) {
     this.setState({
       // filterSelection: {},
       filterCounterPickSelection,
@@ -44,20 +44,20 @@ class App extends Component {
   }
 
   render() {
-    const {filterSelection, features, counterPicks} = this.state;
+    const {features, counterPicks} = this.state;
     const rows = this.rowsOfHeroes();
     return (
       <div className="app">
         <div className="title">
           What do we need to counter:
         </div>
-        <CounterPickFilter cases={counterPicks} onChange={this.setCounterFilters} />
+        <CounterPickFilter cases={counterPicks} onChange={this.setCounterFilters.bind(this)} />
         <div className="title">
           Additional filters:
         </div>
         <FeatureFilter features={features || []}
                        selection={{}}
-                       onChange={this.updateFilters} />
+                       onChange={this.updateFilters.bind(this)} />
         <table className='app__hero-table'>
           <tbody>
             {
@@ -69,7 +69,7 @@ class App extends Component {
             }
           </tbody>
         </table>
-        {rows.length == 0 && (<div className="empty-message">There is no such hero. Try to make filter strict less.</div>)}
+        {rows.length === 0 && (<div className="empty-message">There is no such hero. Try to make filter strict less.</div>)}
       </div>
     );
   }
@@ -101,7 +101,7 @@ class App extends Component {
       }
 
       const rfH = requiredCounterPickFeatures.filter(f => h.features[f]);
-      return rfH.length >= 3 && (requiredFeatures.length == 0 || !requiredFeatures.find(f => !h.features[f]));
+      return rfH.length >= 3 && (requiredFeatures.length === 0 || !requiredFeatures.find(f => !h.features[f]));
     }
     return heroes.filter(heroFilter);
   }

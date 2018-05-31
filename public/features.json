@@ -126,6 +126,7 @@
     "id": "anti_heal"
   },
   {
-    "id": "percentage_dmg"
+    "id": "percentage_dmg",
+    "title": "% Damage"
   }
 ]
