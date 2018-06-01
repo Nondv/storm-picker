@@ -34,6 +34,7 @@
   opacity: 0;
   height: 0;
   width: 0;
+  overflow: hidden;
 }
 
 .counter-pick-filter__case-item:hover .counter-pick-filter__case-item_details {

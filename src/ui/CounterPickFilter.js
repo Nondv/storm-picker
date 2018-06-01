@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'; // ES6
 
-const CaseItem = ({ id, title, description = '', onClick = () => {}, features = [], selected = false }) => (
+const CaseItem = ({ id, title, description = '', onClick = () => {}, features = {}, selected = false }) => (
   <div className={`counter-pick-filter__case-item ${selected? 'selected': ''}`} onClick={onClick} >
     <div className="title" title={description} >
       {title||id}
@@ -12,7 +12,7 @@ const CaseItem = ({ id, title, description = '', onClick = () => {}, features = 
       <hr/>
       Requires at least 3 of this:
       <ul>
-        {features.map( (f, index) => <li key={index}>{f} </li>)}
+        {Object.keys(features).map( (f, index) => <li key={index}>{f} </li>)}
       </ul>
     </div>
      
@@ -33,7 +33,7 @@ class CounterPickFilter extends React.Component {
       selectedItem
     });
     const filtersMap = {};
-    selectedItem.features.forEach(feature => {
+    Object.keys(selectedItem.features).forEach(feature => {
       filtersMap[feature] = true;
     });
     this.props.onChange(filtersMap);
@@ -61,7 +61,7 @@ CounterPickFilter.propTypes = {
   cases: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
-      features: PropTypes.arrayOf(PropTypes.string).isRequired,
+      features: PropTypes.objectOf(PropTypes.bool).isRequired,
       title: PropTypes.string,
       description: PropTypes.string
     })
