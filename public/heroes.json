@@ -61,8 +61,7 @@
       "cc": true,
       "summons": true,
       "escape": true,
-      "stun": true,
-      "offtank": true
+      "stun": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/anubarak/bust.jpg"
@@ -77,8 +76,7 @@
       "dd": true,
       "initiaton": true,
       "blind": true,
-      "solo": true,
-      "offtank": true
+      "solo": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/artanis/bust.jpg"
@@ -226,8 +224,7 @@
     "features": {
       "ranged": true,
       "bruiser": true,
-      "escape": true,
-      "offtank": true
+      "escape": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/dva/bust.jpg"
@@ -556,8 +553,7 @@
       "escape": true,
       "solo": true,
       "aa": true,
-      "percentage_dmg": true,
-      "offtank": true
+      "percentage_dmg": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/leoric/bust.jpg"
@@ -849,8 +845,7 @@
       "finisher": true,
       "aa": true,
       "sustain_heal": true,
-      "cleanse": true,
-      "offtank": true
+      "cleanse": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/rehgar/bust.jpg"
@@ -919,8 +914,7 @@
       "initiation": true,
       "finisher": true,
       "solo": true,
-      "aa": true,
-      "offtank": true
+      "aa": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/sonya/bust.jpg"
@@ -1190,7 +1184,6 @@
       "finisher": true,
       "solo": true,
       "anti_shield": true,
-      "offtank": true,
       "anti_heal": true
     },
     "images": {
@@ -1247,8 +1240,7 @@
       "initiation": true,
       "aa": true,
       "cleanse": true,
-      "shield": true,
-      "offtank": true
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/zarya/bust.jpg"
