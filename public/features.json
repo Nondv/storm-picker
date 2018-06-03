@@ -32,6 +32,18 @@
     "id": "healer"
   },
   {
+    "id": "burst_heal",
+    "title": "Burst heal"
+  },
+  {
+    "id": "sustain_heal",
+    "title": "Sustain heal"
+  },
+  {
+    "id": "long_fights",
+    "title": "Long fights (mana independency)"
+  },
+  {
     "id": "slow"
   },
   {
@@ -96,5 +108,21 @@
   },
   {
     "id": "stealth"
+  },
+  {
+    "id": "cleanse"
+  },
+  {
+    "id": "shield"
+  },
+  {
+    "id": "anti_shield"
+  },
+  {
+    "id": "anti_heal"
+  },
+  {
+    "id": "percentage_dmg",
+    "title": "% Damage"
   }
 ]

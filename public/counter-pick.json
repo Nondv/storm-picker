@@ -1,0 +1,95 @@
+[
+  {
+    "id": "aa_heavy",
+    "title": "AA-heavy",
+    "description": "Blind them, or make sure you can compensate their damage (they don't have burst). Then punish them.",
+    "features": {
+      "blind": true,
+      "sustain_heal": true,
+      "long_fights": true,
+      "stun": true,
+      "escape": true
+    }
+  },
+  {
+    "id": "cc_heavy",
+    "title": "CC-heavy",
+    "description": "Prevent stuns or shield a victim. Or even better - over-CC them!",
+    "features": {
+      "cleanse": true,
+      "burst_heal": true,
+      "shield": true,
+      "cc": true,
+      "silence": true
+    }
+  },
+  {
+    "id": "shields",
+    "title": "Shields-heavy",
+    "description": "Just melt their shield or they HP by %",
+    "features": {
+      "anti_shield": true,
+      "percentage_dmg": true,
+      "slow": true,
+      "cc": true,
+      "silence": true,
+      "anti_heal": true
+    }
+  },
+  {
+    "id": "hp_heavy",
+    "title": "Fat-hp heroes",
+    "description": "Make them slow and drain HP",
+    "features": {
+      "percentage_dmg": true,
+      "slow": true,
+      "cc": true,
+      "burst": true,
+      "mage": true
+    }
+  },
+  {
+    "id": "dive",
+    "title": "Dive-combo",
+    "description": "You need to survive their dive, then punish",
+    "features": {
+      "cleanse": true,
+      "stun": true,
+      "cc": true,
+      "shield": true,
+      "silence": true,
+      "escape": true,
+      "burst_heal": true,
+      "tank": true,
+      "slow": true
+    }
+  },
+  {
+    "id": "pusher",
+    "title": "Strong pushers",
+    "description": "Outpush him, make him busy (camps) or gank their pusher",
+    "features": {
+      "pushing": true,
+      "camping": true,
+      "waveclear": true,
+      "global": true,
+      "stealth": true,
+      "cc": true,
+      "stun": true
+    }
+  },
+  {
+    "id": "double_supp",
+    "title": "Double Support",
+    "description": "CC them, prevent their healing, or melt their healers mana",
+    "features": {
+      "cc": true,
+      "silence": true,
+      "finisher": true,
+      "initiation": true,
+      "long_fights": true,
+      "stealth": true,
+      "burst": true
+    }
+  }
+]

@@ -5,7 +5,8 @@
       "dd": true,
       "support": true,
       "global": true,
-      "pushing": true
+      "pushing": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/abathur/bust.jpg"
@@ -29,7 +30,8 @@
       "ranged": true,
       "support": true,
       "healer": true,
-      "escape": true
+      "escape": true,
+      "sustain_heal": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/alexstrasza/bust.jpg"
@@ -41,7 +43,10 @@
       "ranged": true,
       "support": true,
       "healer": true,
-      "cc": true
+      "cc": true,
+      "sustain_heal": true,
+      "cleanse": true,
+      "anti_heal": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/ana/bust.jpg"
@@ -86,7 +91,8 @@
       "solo": true,
       "slow": true,
       "roots": true,
-      "selfsustain": true
+      "selfsustain": true,
+      "burst_heal": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/arthas/bust.jpg"
@@ -99,7 +105,8 @@
       "healer": true,
       "support": true,
       "stun": true,
-      "blind": true
+      "blind": true,
+      "long_fights": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/auriel/bust.jpg"
@@ -148,7 +155,9 @@
       "support": true,
       "cc": true,
       "global": true,
-      "selfsustain": true
+      "selfsustain": true,
+      "sustain_heal": true,
+      "cleanse": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/brightwing/bust.jpg"
@@ -228,7 +237,9 @@
       "support": true,
       "roots": true,
       "slow": true,
-      "cc": true
+      "cc": true,
+      "sustain_heal": true,
+      "long_fights": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/deckard/bust.jpg"
@@ -304,7 +315,8 @@
       "waveclear": true,
       "finisher": true,
       "solo": true,
-      "selfsustain": true
+      "selfsustain": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/fenix/bust.jpg"
@@ -361,7 +373,9 @@
       "camping": true,
       "finisher": true,
       "waveclear": true,
-      "solo": true
+      "solo": true,
+      "percentage_dmg": true,
+      "burst": true
   },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/greymane/bust.jpg"
@@ -481,7 +495,8 @@
       "waveclear": true,
       "roots": true,
       "burst": true,
-      "cc": true
+      "cc": true,
+      "anti_shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/kelthuzad/bust.jpg"
@@ -517,7 +532,9 @@
       "finisher": true,
       "escape": true,
       "mobility": true,
-      "solo": true
+      "solo": true,
+      "cleanse": true,
+      "percentage_dmg": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/kharazim/bust.jpg"
@@ -535,7 +552,8 @@
       "initiation": true,
       "escape": true,
       "solo": true,
-      "aa": true
+      "aa": true,
+      "percentage_dmg": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/leoric/bust.jpg"
@@ -549,7 +567,9 @@
       "healer": true,
       "slow": true,
       "stun": true,
-      "blind": true
+      "blind": true,
+      "sustain_heal": true,
+      "cleanse": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/li-li/bust.jpg"
@@ -576,7 +596,11 @@
       "ranged": true,
       "support": true,
       "healer": true,
-      "global": true
+      "global": true,
+      "burst_heal": true,
+      "long_fights": true,
+      "shield": true,
+      "anti_shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/lt-morales/bust.jpg"
@@ -607,7 +631,9 @@
       "healer": true,
       "finisher": true,
       "escape": true,
-      "mobility": true
+      "mobility": true,
+      "sustain_heal": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/lucio/bust.jpg"
@@ -637,7 +663,10 @@
       "healer": true,
       "slow": true,
       "roots": true,
-      "silence": true
+      "silence": true,
+      "sustain_heal": true,
+      "long_fights": true,
+      "cleanse": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/malfurion/bust.jpg"
@@ -655,7 +684,8 @@
       "selfsustain": true,
       "initiation": true,
       "finisher": true,
-      "mobility": true
+      "mobility": true,
+      "percentage_dmg": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/malthael/bust.jpg"
@@ -672,7 +702,8 @@
       "silence": true,
       "initiation": true,
       "escape": true,
-      "mobility": true
+      "mobility": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/medivh/bust.jpg"
@@ -796,7 +827,8 @@
       "dd": true,
       "support": true,
       "selfsustain": true,
-      "stun": true
+      "stun": true,
+      "percentage_dmg": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/raynor/bust.jpg"
@@ -811,7 +843,9 @@
       "slow": true,
       "waveclear": true,
       "finisher": true,
-      "aa": true
+      "aa": true,
+      "sustain_heal": true,
+      "cleanse": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/rehgar/bust.jpg"
@@ -914,7 +948,8 @@
       "cc": true,
       "silence": true,
       "roots": true,
-      "aa": true
+      "aa": true,
+      "burst_heal": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/stukov/bust.jpg"
@@ -952,7 +987,8 @@
       "escape": true,
       "solo": true,
       "aa": true,
-      "scout": true
+      "scout": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tassadar/bust.jpg"
@@ -1034,7 +1070,8 @@
       "dd": true,
       "waveclear": true,
       "burst": true,
-      "finisher": true
+      "finisher": true,
+      "percentage_dmg": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tychus/bust.jpg"
@@ -1052,7 +1089,8 @@
       "initiation": true,
       "escape": true,
       "solo": true,
-      "aa": true
+      "aa": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tyrael/bust.jpg"
@@ -1068,7 +1106,8 @@
       "selfsustain": true,
       "stun": true,
       "scout": true,
-      "stealth": true
+      "stealth": true,
+      "cleanse": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/tyrande/bust.jpg"
@@ -1084,7 +1123,10 @@
       "healer": true,
       "selfsustain": true,
       "stun": true,
-      "solo": true
+      "solo": true,
+      "burst_heal": true,
+      "cleanse": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/uther/bust.jpg"
@@ -1120,7 +1162,8 @@
       "finisher": true,
       "escape": true,
       "solo": true,
-      "aa": true
+      "aa": true,
+      "percentage_dmg": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/valla/bust.jpg"
@@ -1139,7 +1182,9 @@
       "selfsustain": true,
       "initiation": true,
       "finisher": true,
-      "solo": true
+      "solo": true,
+      "anti_shield": true,
+      "anti_heal": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/varian/bust.jpg"
@@ -1157,7 +1202,8 @@
       "initiation": true,
       "solo": true,
       "summons": true,
-      "aa": true
+      "aa": true,
+      "anti_heal": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/xul/bust.jpg"
@@ -1192,7 +1238,9 @@
       "waveclear": true,
       "cc": true,
       "initiation": true,
-      "aa": true
+      "aa": true,
+      "cleanse": true,
+      "shield": true
     },
     "images": {
       "bust": "https://blzmedia-a.akamaihd.net/heroes/zarya/bust.jpg"
