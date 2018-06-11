@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
-import Hero from './ui/Hero'
+import HeroGallery from './ui/HeroGallery'
 import Feature from './entities/Feature'
 import FeatureFilter from './ui/FeatureFilter'
 import CounterPickFilter from './ui/CounterPickFilter';
-import arrayToTable from './util/arrayToTable'
 import sortBy from './util/sortBy'
 import mapToObjects from './util/mapToObjects'
 const mergeObjects = (a, b) => Object.assign({}, a, b)
@@ -30,7 +29,7 @@ class App extends Component {
   }
 
   updateFilters (c) {
-    this.setState({ 
+    this.setState({
       filterSelection: mergeObjects(this.state.filterSelection, c)
     })
   }
@@ -45,7 +44,8 @@ class App extends Component {
 
   render() {
     const {features, counterPicks} = this.state;
-    const rows = this.rowsOfHeroes();
+    const heroes = this.filteredHeroes();
+
     return (
       <div className="app">
         <div className="title">
@@ -58,27 +58,10 @@ class App extends Component {
         <FeatureFilter features={features || []}
                        selection={{}}
                        onChange={this.updateFilters.bind(this)} />
-        <table className='app__hero-table'>
-          <tbody>
-            {
-              rows.map(
-                (row, i) => <tr key={i}>
-                              {row.map(h => <td key={h.name}><Hero data={h} /></td>)}
-                            </tr>
-              )
-            }
-          </tbody>
-        </table>
-        {rows.length === 0 && (<div className="empty-message">There is no such hero. Try to make filter strict less.</div>)}
+        <HeroGallery heroes={heroes} />
+        {heroes.length === 0 && (<div className="empty-message">There is no such hero. Try to make filter strict less.</div>)}
       </div>
     );
-  }
-
-  // TODO: cache it
-  rowsOfHeroes() {
-    const rowLength = 6;
-    const heroes = this.filteredHeroes();
-    return arrayToTable(heroes, rowLength);
   }
 
   filteredHeroes() {
@@ -87,15 +70,15 @@ class App extends Component {
     if(!this.isFilterEnabled()) {
       return heroes;
     }
- 
+
     const requiredFeatures = Object.entries(filterSelection)
                                    .filter(keyvalue => keyvalue[1])
                                    .map(keyvalue => keyvalue[0]);
     const requiredCounterPickFeatures = Object.entries(filterCounterPickSelection)
                                    .filter(keyvalue => keyvalue[1])
-                                   .map(keyvalue => keyvalue[0]);                                   
+                                   .map(keyvalue => keyvalue[0]);
     const heroFilter = h =>  {
-     
+
       if (!moreThen2FilterMode) {
         return !requiredFeatures.find(f => !h.features[f]);
       }
