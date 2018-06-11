@@ -2,9 +2,10 @@
   "name": "storm-picker",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://storm-picker.xyz",
+  "homepage": "http://storm-picker.xyz",
   "dependencies": {
     "axios": "^0.18.0",
+    "foundation-sites": "^6.4.4-rc1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4"
