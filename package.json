@@ -19,7 +19,7 @@
     "watch-css": "yarn run build-css && node-sass-chokidar --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "yarn run build-css && react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
 }
