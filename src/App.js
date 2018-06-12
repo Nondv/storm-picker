@@ -47,7 +47,7 @@ class App extends Component {
     const heroes = this.filteredHeroes();
 
     return (
-      <div className="app">
+      <div className="app grid-container">
         <div className="title">
           What do we need to counter:
         </div>

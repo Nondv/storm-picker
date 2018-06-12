@@ -18,8 +18,8 @@ const FeatureFilter = function({features, selection, onChange}) {
   const renderFeature = f => <Feature data={f} selected={selection[f.id]} onChange={v => setSelection(f, v)} />;
 
   return (
-    <div className='row feature-filter'>
-      {features.map(f => <div key={f.id} className='large-2 medium-4 small-6'>{renderFeature(f)}</div>)}
+    <div className='feature-filter grid-x'>
+      {features.map(f => <div key={f.id} className='cell large-2 medium-4 small-6'>{renderFeature(f)}</div>)}
     </div>
   )
 }
