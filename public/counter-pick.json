@@ -24,19 +24,6 @@
     }
   },
   {
-    "id": "shields",
-    "title": "Shields-heavy",
-    "description": "Just melt their shield or they HP by %",
-    "features": {
-      "anti_shield": true,
-      "percentage_dmg": true,
-      "slow": true,
-      "cc": true,
-      "silence": true,
-      "anti_heal": true
-    }
-  },
-  {
     "id": "hp_heavy",
     "title": "Fat-hp heroes",
     "description": "Make them slow and drain HP",
