@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'; // ES6
-import arrayToTable from '../util/arrayToTable';
+import './FeatureFilter.css';
 
 const Feature = function({data, selected, onChange}) {
   return (
@@ -15,15 +15,12 @@ const Feature = function({data, selected, onChange}) {
 
 const FeatureFilter = function({features, selection, onChange}) {
   const setSelection = (feature, value) => onChange({ [feature.id]: value });
-  const rows = arrayToTable(features, 6);
   const renderFeature = f => <Feature data={f} selected={selection[f.id]} onChange={v => setSelection(f, v)} />;
 
   return (
-    <table className='feature-filter'>
-      <tbody>
-        {rows.map((r, i) => <tr key={i}>{r.map(f => <td key={f.id}>{renderFeature(f)}</td>)}</tr>)}
-      </tbody>
-    </table>
+    <div className='feature-filter grid-x'>
+      {features.map(f => <div key={f.id} className='cell large-2 medium-4 small-6'>{renderFeature(f)}</div>)}
+    </div>
   )
 }
 

@@ -1,0 +1,22 @@
+.app {
+  color: #ccc;
+  min-height: 100vh;
+}
+
+.app__hero-table tbody {
+  vertical-align: top;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.empty-message {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10vh;
+  font-size: 18px;
+  color: #eee;
+}

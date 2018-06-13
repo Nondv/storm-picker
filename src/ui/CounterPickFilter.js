@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'; // ES6
+import './CounterPickFilter.css';
 
 const CaseItem = ({ id, title, description = '', onClick = () => {}, features = {}, selected = false }) => (
   <div className={`counter-pick-filter__case-item ${selected? 'selected': ''}`} onClick={onClick} >
@@ -15,7 +16,7 @@ const CaseItem = ({ id, title, description = '', onClick = () => {}, features = 
         {Object.keys(features).map( (f, index) => <li key={index}>{f} </li>)}
       </ul>
     </div>
-     
+
   </div>
 );
 
